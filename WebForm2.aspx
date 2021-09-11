@@ -55,6 +55,12 @@
         </div>
       </div>
     </nav>
+    
+    <section class="d-flex justify-content-center mb-2">
+        <div class="card p-3 mt-3 col-lg-5 col-12">
+            <asp:Label CssClass="h5 text-primary mb-0" ID="Label11" runat="server" Text="✅ Total respuestas acertadas: "></asp:Label>
+        </div>
+    </section>
     <section class="d-flex justify-content-center mb-4">
         <div class="card p-3 m-3 col-lg-5 col-12">
             <form id="form1" runat="server">
@@ -69,7 +75,7 @@
                         </div>
                         <div>
                             <asp:RadioButton ID="RadioButton1" GroupName="pregunta1" runat="server" Text="Lenguaje de programación" /><br />
-                            <asp:RadioButton ID="RadioButton2" GroupName="pregunta1" runat="server" Text="Lenguaje de marcado" /><br />
+                            <asp:RadioButton ID="RadioButton2" GroupName="pregunta1" runat="server" Text="Lenguaje de marcado"/><br />
                             <asp:RadioButton ID="RadioButton3" GroupName="pregunta1" runat="server" Text="Bases de datos" /><br />
                             <asp:RadioButton ID="RadioButton4" GroupName="pregunta1" runat="server" Text="Editor de codigo" />
                         </div>
@@ -113,7 +119,7 @@
                     <hr />
                     <section>
                         <div class="mb-2">
-                            <asp:Label ID="Label5" runat="server" Text="<b>5)</b> Programa que se utiliza para ver archivos html, interpreta este codigo y permite la visualización del contenido de una página web al usuario se denomina:"></asp:Label>
+                            <asp:Label ID="Label5" runat="server" Text="<b>5)</b> Programa que se utiliza para ver archivos HTML, interpreta este codigo y permite la visualización del contenido de una página web al usuario se denomina:"></asp:Label>
                         </div>
                         <div>
                             <asp:RadioButton ID="RadioButton17" GroupName="pregunta5" runat="server" Text="Google y Mozilla " /><br />
@@ -125,7 +131,7 @@
                     <hr />
                     <section>
                         <div class="mb-2">
-                            <asp:Label ID="Label6" runat="server" Text="<b>6)</b> Marcas de texto quepermiten, medinante una pulsación del boton del mause sobre ellas, pasar de una página a otra independiente mente del lugar donde se encuentre."></asp:Label>
+                            <asp:Label ID="Label6" runat="server" Text="<b>6)</b> Marcas de texto que permiten, medinante una pulsación del boton del mause sobre ellas, pasar de una página a otra independiente mente del lugar donde se encuentre."></asp:Label>
                         </div>
                         <div>
                             <asp:RadioButton ID="RadioButton21" GroupName="pregunta6" runat="server" Text="Hipermedia " /><br />
@@ -184,7 +190,7 @@
                     </section>
                     <hr />
                     <div class="text-center">
-                        <asp:Button ID="btnFormulario" runat="server" Text="Realizar cuestionario" class="btn btn-primary"/>
+                        <asp:Button ID="btnFormulario" runat="server" Text="Realizar cuestionario" class="btn btn-primary" OnClick="btnFormulario_Click"/>
                     </div>
                 </div>
             </form>

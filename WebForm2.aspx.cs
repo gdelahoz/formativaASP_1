@@ -13,5 +13,52 @@ namespace formativaASP_1
         {
 
         }
+
+        protected void btnFormulario_Click(object sender, EventArgs e)
+        {
+            int vRespuesta = 0;
+
+            if (RadioButton2.Checked) {
+                vRespuesta = vRespuesta + 1;
+            }
+            if (RadioButton7.Checked)
+            {
+                vRespuesta = vRespuesta + 1;
+            }
+            if (RadioButton12.Checked)
+            {
+                vRespuesta = vRespuesta + 1;
+            }
+            if (RadioButton15.Checked)
+            {
+                vRespuesta = vRespuesta + 1;
+            }
+            if (RadioButton18.Checked)
+            {
+                vRespuesta = vRespuesta + 1;
+            }
+            if (RadioButton24.Checked)
+            {
+                vRespuesta = vRespuesta + 1;
+            }
+            if (RadioButton27.Checked)
+            {
+                vRespuesta = vRespuesta + 1;
+            }
+            if (RadioButton30.Checked)
+            {
+                vRespuesta = vRespuesta + 1;
+            }
+            if (RadioButton35.Checked)
+            {
+                vRespuesta = vRespuesta + 1;
+            }
+            if (RadioButton40.Checked)
+            {
+                vRespuesta = vRespuesta + 1;
+            }
+
+            Label11.Text = "✅ Total respuestas acertadas: " + vRespuesta;
+        }
     }
 }
