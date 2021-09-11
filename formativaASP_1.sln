@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formativaASP_1", "formativaASP_1.csproj", "{52372F17-4C49-4017-91F7-7936A4F81B90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52372F17-4C49-4017-91F7-7936A4F81B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52372F17-4C49-4017-91F7-7936A4F81B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52372F17-4C49-4017-91F7-7936A4F81B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52372F17-4C49-4017-91F7-7936A4F81B90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE1B18E1-FE4C-4F97-B1F0-FB5CA70B7606}
+	EndGlobalSection
+EndGlobal
