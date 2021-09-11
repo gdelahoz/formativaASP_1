@@ -43,13 +43,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Formulario</a>
+              <a class="nav-link active" aria-current="page" href="WebForm1.aspx">Formulario</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Preguntas</a>
+              <a class="nav-link" href="WebForm2.aspx">Cuestionario</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Redireccionamiento</a>
+              <a class="nav-link" href="WebForm3.aspx">Redireccionamiento</a>
             </li>
           </ul>
         </div>
