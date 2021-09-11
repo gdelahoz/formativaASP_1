@@ -55,9 +55,28 @@
         </div>
       </div>
     </nav>
-    <form id="form1" runat="server">
-        <div>
+    <section class="d-flex justify-content-center mb-2">
+        <div class="card p-3 mt-3 col-lg-3 col-12">
+            <form id="form1" runat="server">
+                <div class="mb-4">
+                    <asp:Label CssClass="h4" ID="Label1" runat="server" Text="Selecciona el buscador a donde quieres redirigirte: "></asp:Label>
+                </div>
+                <div>
+                    <asp:RadioButton CssClass="text-warning" ID="RadioButton1" runat="server" text="Google" GroupName="red"/><br />
+                    <asp:RadioButton CssClass="text-secondary" ID="RadioButton2" runat="server" text="Yahoo" GroupName="red"/><br />
+                    <asp:RadioButton CssClass="text-info" ID="RadioButton3" runat="server" text="DuckCuckGo" GroupName="red"/><br />
+                    <asp:RadioButton CssClass="text-success" ID="RadioButton4" runat="server" text="Baidu" GroupName="red"/><br />
+                    <asp:RadioButton CssClass="text-primary" ID="RadioButton5" runat="server" text="Bing" GroupName="red"/><br />
+                    <asp:RadioButton CssClass="texxt-danger" ID="RadioButton6" runat="server" text="Seznam" GroupName="red"/><br />
+                    <asp:RadioButton ID="RadioButton7" runat="server" text="Naver" GroupName="red"/><br />
+                    <asp:RadioButton ID="RadioButton8" runat="server" text="Qwant" GroupName="red"/>                     
+                </div>
+                <div class="text-center">
+                    <asp:Button ID="btnForm" runat="server" Text="Redireccionar" class="btn btn-primary" OnClick="btnForm_Click"/>
+                </div>
+            </form>
         </div>
-    </form>
+    </section>
+    
 </body>
 </html>

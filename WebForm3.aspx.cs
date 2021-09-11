@@ -13,5 +13,41 @@ namespace formativaASP_1
         {
 
         }
+
+        protected void btnForm_Click(object sender, EventArgs e)
+        {
+            if (RadioButton1.Checked)
+            {
+                Response.Redirect("https://www.google.com/");
+            }
+            if (RadioButton2.Checked)
+            {
+                Response.Redirect("https://search.yahoo.com/");
+            }
+            if (RadioButton3.Checked)
+            {
+                Response.Redirect("https://duckduckgo.com/");
+            }
+            if (RadioButton4.Checked)
+            {
+                Response.Redirect("https://www.baidu.com/");
+            }
+            if (RadioButton5.Checked)
+            {
+                Response.Redirect("https://www.bing.com/");
+            }
+            if (RadioButton6.Checked)
+            {
+                Response.Redirect("https://www.seznam.cz/");
+            }
+            if (RadioButton7.Checked)
+            {
+                Response.Redirect("https://www.naver.com/");
+            }
+            if (RadioButton8.Checked)
+            {
+                Response.Redirect("https://www.qwant.com/");
+            }
+        }
     }
 }
